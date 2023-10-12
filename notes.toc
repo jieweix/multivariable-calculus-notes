@@ -1,0 +1,49 @@
+\contentsline {section}{\numberline {1}Convergence of a sequence}{1}{}%
+\contentsline {section}{\numberline {2}Continuity}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Separate continuity}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Properties of continuous functions}{3}{}%
+\contentsline {subsection}{\numberline {2.3}(USEFUL) Construction of continuous functions of several variable from real-valued functions of a single real variable (1st year analysis)}{3}{}%
+\contentsline {subsection}{\numberline {2.4}Caution with taking limits}{4}{}%
+\contentsline {section}{\numberline {3}Rudiments of topology and continuity}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Continuity and topology}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Bolzano-Weierstrass theorem}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Continuity and sequential compactness}{8}{}%
+\contentsline {section}{\numberline {4}Linear maps and matrices}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Norms on linear maps/matrices}{9}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Compare $\|A\|$ with $\|A\|_F$}{11}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Properties of norm}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Convergence and continuity in $\mathcal L(\mathbb R^n,\mathbb R^k)$ / $\mathbb R^{k\times n}$}{11}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Continuous matrix valued functions}{11}{}%
+\contentsline {subsection}{\numberline {4.3}General linear group $GL(n,\mathbb R):=\{A\in \mathcal \mathbb R^n: A\text { is invertible}\}$}{12}{}%
+\contentsline {section}{\numberline {5}Derivative of $f:U\rightarrow \mathbb R^k$ where $U\subset \mathbb R^n$ is open}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Directional derivative}{13}{}%
+\contentsline {subsection}{\numberline {5.2}The (Fréchet) derivative as affine linear approximation}{13}{}%
+\contentsline {subsection}{\numberline {5.3}Partial derivative, Jacobian matrix, gradient}{15}{}%
+\contentsline {subsection}{\numberline {5.4}Summary of different types of derivative [just a recap]}{16}{}%
+\contentsline {subsubsection}{\numberline {5.4.1}Directional derivative}{16}{}%
+\contentsline {subsubsection}{\numberline {5.4.2}Partial derivative}{16}{}%
+\contentsline {subsection}{\numberline {5.5}Gradient of $f:U\rightarrow \mathbb R,\ U\subset \mathbb R^n$}{18}{}%
+\contentsline {subsection}{\numberline {5.6}Differentiation of matrix-valued functions}{18}{}%
+\contentsline {subsection}{\numberline {5.7}Chain rule}{19}{}%
+\contentsline {subsubsection}{\numberline {5.7.1}Common special cases}{20}{}%
+\contentsline {paragraph}{Case 1: $k=m=1$.}{20}{}%
+\contentsline {paragraph}{Case 2: $f:\mathbb R^n\rightarrow \mathbb R,\ r:\mathbb R\rightarrow \mathbb R^n$ (parameterisation of a curve in $\mathbb R^n$).}{20}{}%
+\contentsline {subsubsection}{\numberline {5.7.2}Idea of proof of chain rule (seen in first year analysis)}{20}{}%
+\contentsline {subsection}{\numberline {5.8}Continuity of partial derivatives implies differentiability}{21}{}%
+\contentsline {subsection}{\numberline {5.9}Mean value inequality (MVI)}{23}{}%
+\contentsline {section}{\numberline {6}Vector fields, curves, line integrals}{24}{}%
+\contentsline {subsection}{\numberline {6.1}Components of a vector}{25}{}%
+\contentsline {subsection}{\numberline {6.2}Curves and their parameterisation}{25}{}%
+\contentsline {subsection}{\numberline {6.3}Line integral}{26}{}%
+\contentsline {subsection}{\numberline {6.4}Flux and divergence in $\mathbb R^2$}{29}{}%
+\contentsline {subsection}{\numberline {6.5}Flux and divergence in $\mathbb R^3$}{31}{}%
+\contentsline {subsection}{\numberline {6.6}Gradient fields}{32}{}%
+\contentsline {subsection}{\numberline {6.7}Conservative fields}{33}{}%
+\contentsline {subsection}{\numberline {6.8}Scalar potential of conservative fields}{34}{}%
+\contentsline {subsubsection}{\numberline {6.8.1}Relation of curl and existence of scalar potential for $C^1$ vector fields}{35}{}%
+\contentsline {subsection}{\numberline {6.9}Incompressible and conservative vector fields}{36}{}%
+\contentsline {section}{\numberline {7}Inverse function theorem}{37}{}%
+\contentsline {subsection}{\numberline {7.1}1-d review}{37}{}%
+\contentsline {section}{\numberline {8}Implicit function theorem}{40}{}%
+\contentsline {subsection}{\numberline {8.1}Maximal rank reformulation of Implicit function theorem}{42}{}%
+\contentsline {subsection}{\numberline {8.2}Using Implicit function theorem to parameterise (pieces of) level sets}{42}{}%
