@@ -53,7 +53,7 @@ Difference between column and row vectors.
 \begin{itemize}
 	\item Column vector $v=\begin{pmatrix}
 		v_1 \\ \vdots \\ v_n
-	\end{pmatrix}$ represents linear map $T: \mathbb{R} \rightarrow \mathbb{R}^n$, $T(t) = tv$ (line through 0 in dir $v$)
+	\end{pmatrix}$ represents linear map $T: \mathbb{R} \rightarrow \mathbb{R}^n$, $T(t) = tv$ (line through 0 in direction $v$)
 	\item Row vector $v=(v_1,\ldots,v_n)$ represents $\lambda_v:\mathbb{R}^n \rightarrow \mathbb{R}$, $\lambda_v(x)=v_1x_1+\cdots+v_nx_n$ (linear functional)
 	\begin{itemize}
 		\item Ker $\lambda_v = \{ x \in \mathbb{R}^n, \lambda_v(x)=0, \text{i.e. }v^T \cdot x =0 \}=H_v$, hyperplane $\perp v^T$ through 0
@@ -109,7 +109,7 @@ Recall the definition of convergence from Analysis I.
 	$f:U\rightarrow \mathbb R^k$ where $U \subset \mathbb R ^n$ is continuous at $p\in U$ if $\forall \varepsilon >0$, $\exists \delta >0$ such that $|x-p|<\delta \Rightarrow |f(x)-f(p)| < \varepsilon$ and $x\in U$.
 \end{defn}
 \begin{defn} [sequential]
-	$f:U\rightarrow \mathbb R^k$ is continous at $p$ if $\forall x_j \rightarrow p$, $f(x_j) \rightarrow f(p)$.
+	$f:U\rightarrow \mathbb R^k$ is continuous at $p$ if $\forall x_j \rightarrow p$, $f(x_j) \rightarrow f(p)$.
 \end{defn}
 \begin{notation}
 	$\mathcal C (U, \mathbb R^k) = \{ f: U \rightarrow \mathbb R^k, f\text{ is continuous at all points of }U \}$
@@ -1158,7 +1158,7 @@ So
 \begin{defn}[Path connectedness]
 $U\subset \mathbb R^n$ is \textit{(differentiably) path connected} if $\forall p,q \in U,\ \exists$ a continuously differentiable path $r:[a,b]\rightarrow U$ such that $r(a)=p,\ r(b)=q$.
 \end{defn}
-It's really a notion in topology. Differentibility doesn't make much sense in those things since it implies some kind of linear structure. This is why differentiably is with parentheses. We'll see a lot more about this in Norms, Metrics and Topologies.
+It's really a notion in topology. Differentiability doesn't make much sense in those things since it implies some kind of linear structure. This is why differentiably is with parentheses. We'll see a lot more about this in Norms, Metrics and Topologies.
 
 \begin{coro}[Vanishing derivative]
 Suppose $U\subset \mathbb R^n$ is differentiably path connected and $f:U\rightarrow \mathbb R^k$ satisfies $\partial f(x)=0 \ \forall x\in U$. Then $f$ is constant on $U$.
@@ -1274,7 +1274,7 @@ Given continuous vector field $\underline v(s)$ and a regular curve $C\subset \m
 \begin{remark}
 $\underline v\cdot t>0$ means $v$ points along $t$ and $\underline v\cdot t<0$ means $\underline v$ points against $t$. Now $\displaystyle \frac{\int_C \underline v \cdot t \ \mathrm d s}{\int_C 1 \ \mathrm d s}$ is the average of $\underline v\cdot t$ along $C$ where the denominator is just length of $C$. So
 \[
-\int_C \underline v \cdot t \ \mathrm d s= (\text{length of } C) \underbrace{(\text{average of }\underline v\cdot t \text{ along }C)}_{\text{how much ``on avergae'' }\underline v\text{ points along }C}
+\int_C \underline v \cdot t \ \mathrm d s= (\text{length of } C) \underbrace{(\text{average of }\underline v\cdot t \text{ along }C)}_{\text{how much ``on average'' }\underline v\text{ points along }C}
 \]
 To compute this we change variables again:
 \[
