@@ -1,5 +1,6 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage[british]{babel}
 \usepackage{amsthm}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -8,6 +9,8 @@
 \usepackage{pgfplots}
 \usepackage{esint}
 \usepackage{geometry}
+
+\geometry{a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm}
 
 \usepgfplotslibrary{fillbetween}
 
@@ -30,7 +33,7 @@
 
 \title{MA259 Multivariable calculus :: Lecture notes}
 \author{Lecturer: Mario Micallef}
-\date{\today}
+\date{Last edited: \today}
 
 \begin{document}
 
@@ -1203,13 +1206,14 @@ Let $e\in \mathbb R^n$ be a unit vector. Given $v\in \mathbb R^n$ set $v^{\tan}=
 (v-v^{\tan})\cdot e - v\cdot e - (v\cdot e)(e\cdot e)=0,
 \]
 i.e. $v-v^{\tan} \perp e$. So we set $v^\perp :=v-v^{\tan}$ and $v=v^{\tan} + v^\perp$.
-
+\begin{center}
 \begin{tikzpicture}
 \draw[->] (0,0) -- (1,2)node[anchor=north]{$v$};
 \draw[->] (0,0) -- (0.7071,0.7071)node[anchor=north]{$e$};
 \draw[->,dashed] (0,0) -- (1.5,1.5)node[anchor=north]{$v^{\tan}$};
 \draw[->] (0,0) -- (-0.5,0.5)node[anchor=east]{$v^\perp$};
 \end{tikzpicture}
+\end{center}
 
 \subsection{Curves and their parameterisation}
 \begin{defn}
